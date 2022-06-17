@@ -70,7 +70,7 @@
                     <noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
                     <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
                     <branch>refs/heads/mvn-repo</branch>
-                    <merge>true</merge><!-- remote branch name -->
+<!--                    <merge>true</merge>&lt;!&ndash; remote branch name &ndash;&gt;-->
                     <includes><include>**/*</include></includes>
                     <repositoryName>test-IO-mvn-test</repositoryName>      <!-- github repo name -->
                     <repositoryOwner>UladzimirOsipchyk</repositoryOwner>    <!-- github username  -->
